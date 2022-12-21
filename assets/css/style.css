@@ -1,0 +1,165 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Maven Pro', sans-serif;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  color: ghostwhite;
+}
+
+/* navbar css starts here  */
+.bg-light{
+  background-color: #f2e9e4!important;
+}
+
+.navbar-brand{
+  font-family: 'Rubik 80s Fade', cursive;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 2.2rem;
+  color: ghostwhite;
+  padding-left: 20px;
+}
+
+.nav-link{
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bolder;
+  font-size: 1.4rem;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+.nav-link:hover{
+  background-color: slateblue;
+  color: ghostwhite;
+  border-radius: 10px;
+  box-shadow: 2px 2px 40px slategray;
+}
+/* navbar css ends here  */
+
+/* hero content css starts here  */
+.hero-content{
+  height: 100vh;
+  background: linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%);
+  color: ghostwhite;
+  padding: 2rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  margin-bottom: 0.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content a{
+  color:rgb(121, 45, 129);
+}
+
+@media only screen and (max-width: 766px) {
+  .hero-img {
+    display: none;
+  }
+}
+
+.get-started{
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 162%;
+  background-color: #fff;
+  color:rgb(121, 45, 129)!important;
+  transition: 0.3s;
+}
+
+.get-started:hover{
+  text-decoration: none;
+  background-color: #dabff0;
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+  height: 60vh;
+  background-color: #ff8a65;
+  border-top-left-radius: 42rem;
+  border-top-right-radius: 42rem;
+  border-bottom-right-radius: 42rem;
+  border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+  padding: 25vh 0;
+}
+
+.get-started-content a{
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 162%;
+  background-color: #039be5;
+  color: #fff!important;
+  transition: 0.3s;
+}
+
+.get-started-content a:hover{
+  background-color: #017ab6;
+  text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+.fa{
+  border: 0 solid black;
+  border-radius: 5px;
+  font-size: x-large;
+  color: white;
+  background-color: purple;
+  transition: 0.3s;
+}
+
+.fa:hover {
+  color: white;
+  transform: scale(1.2);
+  border: 1px solid #171515;
+  border-radius: 6px;
+  box-shadow: 2px 2px 20px slategray;
+}
+
+.fa-facebook:hover {
+  background: #3B5998;
+}
+
+.fa-linkedin:hover {
+  background: #007bb5;
+  color: white
+}
+
+.fa-instagram:hover {
+  background: #125688;
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+.fa-github:hover {
+  background: #171515;
+  color: white
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 3px;
+}
+
+.footer{
+  background-color: black;
+  padding: 5px;
+
+}
+/* footer css ends here  */
